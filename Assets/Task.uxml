@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/TaskStyling.uss?fileID=7433441132597879392&amp;guid=d537e62e0c98da543804f7f7c8ddcdde&amp;type=3#TaskStyling" />
+    <ui:VisualElement name="Task" class="Task">
+        <ui:VisualElement style="flex-direction: row; justify-content: space-between; align-items: stretch;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Description" />
+            <ui:Toggle name="TaskStatus" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PercentVisualisationContainer" class="PercentVisualisationContainer" style="background-color: rgb(113, 111, 111); justify-content: space-around; height: 6px;">
+            <ui:VisualElement name="PercentVisualisationIndicator" class="PercentVisualisationIndicator" style="background-color: rgb(155, 251, 255); align-items: stretch; justify-content: flex-start; height: 100%; width: 101px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

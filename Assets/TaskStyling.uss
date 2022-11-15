@@ -1,0 +1,24 @@
+.Task {
+    height: 60px;
+    background-color: rgb(204, 204, 204);
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: stretch;
+    flex-grow: 0;
+}
