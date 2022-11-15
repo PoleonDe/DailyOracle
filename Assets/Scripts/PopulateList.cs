@@ -45,13 +45,13 @@ public class PopulateList : SerializedMonoBehaviour
     public void SaveTasksToJson()
     {
         string json = JsonUtility.ToJson(taskList, true);
-        File.WriteAllText(Application.dataPath + "/Tasks.json", json);
+        File.WriteAllText(Application.dataPath + "/Resources/Tasks.json", json);
     }
 
     [Button]
     public void LoadTasksFromJson()
     {
-        string json = File.ReadAllText(Application.dataPath + "/Tasks.json");
+        string json = File.ReadAllText(Application.dataPath + "/Resources/Tasks.json");
         TaskList data = JsonUtility.FromJson<TaskList>(json);
 
         taskList.tasks = data.tasks;

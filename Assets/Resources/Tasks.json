@@ -1,0 +1,239 @@
+{
+    "tasks": [
+        {
+            "task": "schwimmen gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "joggen 2 kilometer",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "etwas neues aus dem Einkaufsladen kaufen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein kapitel eines buches lesen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "etwas handwerkliches machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen brief schreiben",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein brot backen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein Kuchen backen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "20 Liegestütze machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "Ein loch in einer klamotte flicken",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen obstbaum pflanzen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "etwas reparieren",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "auf den markt gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen spaziergang machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "Zelten 1 ne nacht",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "Jemand fremden ein kompliment machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ins theater gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein kleines gedicht schreiben",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen tagebuch eintrag schreiben",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein gericht mit Rotwein kochen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "eine faire klamotte kaufen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "heute 3 liter wasser trinken",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "inliner fahren gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "30 jumpsquats machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein gericht mit einem obst/gemüse kochen welches man sonst nicht kauft",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "gemeinsam essen gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "3 stunden schweigen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen tag lang das handy nicht benutzen und stattdessen ein buch dabei haben",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "in ein comedy pub gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein saisonales kulturangebot der stadt wahrnehmen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "kanu fahren",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "seinem mitbewohner ein gefallen tun",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen survival gegenstand kaufen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "neue musik suchen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein sparschwein für einen bestimmten zweck samt sparplan anlegen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "den morgigen tag völlig durchplanen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "ein altes brettspiel (besorgen und) spielen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "bowlen gehen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "freunde zu einer tätigkeit einladen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "überlegen wie das leben in 5 jahren aussehen könnte",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen tagesausflug machen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "eine neue kräuterpflanze kaufen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "draußen beeren/nüsse/kräuter sammeln/pflücken",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "einen neuen tee kaufen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "mehrere teebeutel zusammen mischen um einen neuen tee zu finden",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "eine aktivität zu diesem spiel hinzufügen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "2 dehnübungen insgesamt 15 minuten lang machen",
+            "difficulty": 3,
+            "status": false
+        }
+    ]
+}
