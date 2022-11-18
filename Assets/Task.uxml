@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/TaskStyling.uss?fileID=7433441132597879392&amp;guid=d537e62e0c98da543804f7f7c8ddcdde&amp;type=3#TaskStyling" />
     <ui:VisualElement name="Task" class="Task">
-        <ui:VisualElement style="flex-direction: row; justify-content: space-between; align-items: stretch;">
+        <ui:VisualElement name="VisualElement" style="flex-direction: row; justify-content: space-between; align-items: stretch;">
             <ui:Label tabindex="-1" text="LABEL" display-tooltip-when-elided="true" name="Description" style="font-size: 8px; height: 34px; width: 80%; white-space: normal; -unity-font-style: bold;" />
             <ui:Toggle name="TaskStatus" />
         </ui:VisualElement>

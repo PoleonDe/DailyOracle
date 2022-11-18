@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ListView focusable="true" name="Dashboard" reorderable="false" style="flex-grow: 1;" />
+    <ui:VisualElement name="BottomBar_Offset" picking-mode="Ignore" style="height: 56px; flex-shrink: 0;" />
+</ui:UXML>

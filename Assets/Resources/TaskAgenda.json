@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "task": "mehrere teebeutel zusammen mischen um einen neuen tee zu finden",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "eine aktivität zu diesem spiel hinzufügen",
+            "difficulty": 3,
+            "status": false
+        },
+        {
+            "task": "2 dehnübungen insgesamt 15 minuten lang machen",
+            "difficulty": 3,
+            "status": false
+        }
+    ]
+}

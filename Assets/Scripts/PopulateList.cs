@@ -10,6 +10,8 @@ public class PopulateList : SerializedMonoBehaviour
 {
     public TaskList taskList = new TaskList();
     [Required] public VisualTreeAsset taskAsset;
+    [Required] public string jsonFilePath = "/Resources/";
+    [Required] public string fileName = "Tasks";
 
     void OnEnable()
     {
@@ -22,7 +24,7 @@ public class PopulateList : SerializedMonoBehaviour
     {
         VisualElement root = this.gameObject.GetComponent<UIDocument>().rootVisualElement;   
         
-        ListView listView = root.Q<ListView>("DashboardCards");
+        ListView listView = root.Q<ListView>();
         listView.fixedItemHeight = 68f;
         listView.itemsSource = taskList.tasks;
         listView.makeItem = MakeItem;
@@ -39,19 +41,23 @@ public class PopulateList : SerializedMonoBehaviour
         description.text = taskList.tasks[index].task;
         Toggle taskStatus = vE.Q("TaskStatus") as Toggle;
         taskStatus.value = taskList.tasks[index].status;
+        VisualElement backdrop = vE.Q("Task");
+        backdrop.style.backgroundImage = taskList.tasks[index].StyleBackground;
     }
 
     [Button]
     public void SaveTasksToJson()
     {
         string json = JsonUtility.ToJson(taskList, true);
-        File.WriteAllText(Application.dataPath + "/Resources/Tasks.json", json);
+        File.WriteAllText(Application.dataPath + jsonFilePath + fileName + ".json", json);
     }
 
     [Button]
     public void LoadTasksFromJson()
     {
-        string json = File.ReadAllText(Application.dataPath + "/Resources/Tasks.json");
+       
+        TextAsset textFile = Resources.Load<TextAsset>(fileName);
+        string json = textFile.text;
         TaskList data = JsonUtility.FromJson<TaskList>(json);
 
         taskList.tasks = data.tasks;
@@ -64,6 +70,8 @@ public class Task
     public string task = "";
     public int difficulty = 3;
     public bool status = false;
+    public Texture2D image = null;
+    public StyleBackground StyleBackground { get => new StyleBackground(image); }
     public Task(){}
     public Task(string task, int difficulty, bool status)
     {

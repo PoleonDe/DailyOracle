@@ -1,0 +1,10 @@
+.ScreenSelectionButtons {
+    width: 50px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    flex-grow: 0;
+    height: 50px;
+}

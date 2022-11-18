@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/BottomBar.uss?fileID=7433441132597879392&amp;guid=07da3896c443a4348a524fef3d8a03e7&amp;type=3#BottomBar" />
+    <ui:VisualElement name="TopContentBlocker" style="flex-grow: 1;" />
+    <ui:VisualElement name="BottomBar" style="flex-direction: row; flex-shrink: 0; flex-grow: 0; height: 56px; background-color: rgb(79, 79, 79); align-items: stretch; justify-content: center;">
+        <ui:Button display-tooltip-when-elided="true" name="DashboardButton" class="ScreenSelectionButtons" />
+        <ui:Button display-tooltip-when-elided="true" name="CardsButton" class="ScreenSelectionButtons" />
+        <ui:Button display-tooltip-when-elided="true" name="SettingsButton" class="ScreenSelectionButtons" />
+    </ui:VisualElement>
+</ui:UXML>
