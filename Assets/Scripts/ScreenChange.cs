@@ -10,6 +10,7 @@ public class ScreenChange : MonoBehaviour
 
     void OnEnable()
     {
+        ChangeScreen(0);
         BindButtons();
     }
 

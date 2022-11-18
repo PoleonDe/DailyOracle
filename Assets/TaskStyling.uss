@@ -22,4 +22,5 @@
     align-items: stretch;
     flex-grow: 0;
     background-image: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.25);
 }

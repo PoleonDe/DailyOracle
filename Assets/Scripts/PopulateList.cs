@@ -70,8 +70,8 @@ public class Task
     public string task = "";
     public int difficulty = 3;
     public bool status = false;
-    public Texture2D image = null;
-    public StyleBackground StyleBackground { get => new StyleBackground(image); }
+    public string imageName = null;
+    public StyleBackground StyleBackground { get => new StyleBackground(Resources.Load<Texture2D>("Images/" + imageName)); }
     public Task(){}
     public Task(string task, int difficulty, bool status)
     {

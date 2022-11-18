@@ -185,8 +185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screens:
-  - {fileID: 760439027}
   - {fileID: 2130977295}
+  - {fileID: 760439027}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,12 +349,15 @@ MonoBehaviour:
     - task: mehrere teebeutel zusammen mischen um einen neuen tee zu finden
       difficulty: 3
       status: 0
+      imageName: 
     - task: "eine aktivit\xE4t zu diesem spiel hinzuf\xFCgen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: "2 dehn\xFCbungen insgesamt 15 minuten lang machen"
       difficulty: 3
       status: 0
+      imageName: 
   taskAsset: {fileID: 9197481963319205126, guid: 0f380b17998e51849a2ea596def10b5b, type: 3}
   jsonFilePath: /Resources/
   fileName: TaskAgenda
@@ -433,146 +436,193 @@ MonoBehaviour:
     - task: schwimmen gehen
       difficulty: 3
       status: 0
+      imageName: Abstract
     - task: joggen 2 kilometer
       difficulty: 3
       status: 0
+      imageName: Books
     - task: etwas neues aus dem Einkaufsladen kaufen
       difficulty: 3
       status: 0
+      imageName: Books_02
     - task: ein kapitel eines buches lesen
       difficulty: 3
       status: 0
+      imageName: Cake_01
     - task: etwas handwerkliches machen
       difficulty: 3
       status: 0
+      imageName: Cake_02
     - task: einen brief schreiben
       difficulty: 3
       status: 0
+      imageName: Cake_03
     - task: ein brot backen
       difficulty: 3
       status: 0
+      imageName: Chair
     - task: ein Kuchen backen
       difficulty: 3
       status: 0
+      imageName: 
     - task: "20 Liegest\xFCtze machen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: Ein loch in einer klamotte flicken
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen obstbaum pflanzen
       difficulty: 3
       status: 0
+      imageName: 
     - task: etwas reparieren
       difficulty: 3
       status: 0
+      imageName: 
     - task: auf den markt gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen spaziergang machen
       difficulty: 3
       status: 0
+      imageName: 
     - task: Zelten 1 ne nacht
       difficulty: 3
       status: 0
+      imageName: 
     - task: Jemand fremden ein kompliment machen
       difficulty: 3
       status: 0
+      imageName: 
     - task: ins theater gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: ein kleines gedicht schreiben
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen tagebuch eintrag schreiben
       difficulty: 3
       status: 0
+      imageName: 
     - task: ein gericht mit Rotwein kochen
       difficulty: 3
       status: 0
+      imageName: 
     - task: eine faire klamotte kaufen
       difficulty: 3
       status: 0
+      imageName: 
     - task: heute 3 liter wasser trinken
       difficulty: 3
       status: 0
+      imageName: 
     - task: inliner fahren gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: 30 jumpsquats machen
       difficulty: 3
       status: 0
+      imageName: 
     - task: "ein gericht mit einem obst/gem\xFCse kochen welches man sonst nicht
         kauft"
       difficulty: 3
       status: 0
+      imageName: 
     - task: gemeinsam essen gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: 3 stunden schweigen
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen tag lang das handy nicht benutzen und stattdessen ein buch dabei
         haben
       difficulty: 3
       status: 0
+      imageName: 
     - task: in ein comedy pub gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: ein saisonales kulturangebot der stadt wahrnehmen
       difficulty: 3
       status: 0
+      imageName: 
     - task: kanu fahren
       difficulty: 3
       status: 0
+      imageName: 
     - task: seinem mitbewohner ein gefallen tun
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen survival gegenstand kaufen
       difficulty: 3
       status: 0
+      imageName: 
     - task: neue musik suchen
       difficulty: 3
       status: 0
+      imageName: 
     - task: "ein sparschwein f\xFCr einen bestimmten zweck samt sparplan anlegen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: "den morgigen tag v\xF6llig durchplanen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: ein altes brettspiel (besorgen und) spielen
       difficulty: 3
       status: 0
+      imageName: 
     - task: bowlen gehen
       difficulty: 3
       status: 0
+      imageName: 
     - task: "freunde zu einer t\xE4tigkeit einladen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: "\xFCberlegen wie das leben in 5 jahren aussehen k\xF6nnte"
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen tagesausflug machen
       difficulty: 3
       status: 0
+      imageName: 
     - task: "eine neue kr\xE4uterpflanze kaufen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: "drau\xDFen beeren/n\xFCsse/kr\xE4uter sammeln/pfl\xFCcken"
       difficulty: 3
       status: 0
+      imageName: 
     - task: einen neuen tee kaufen
       difficulty: 3
       status: 0
+      imageName: 
     - task: mehrere teebeutel zusammen mischen um einen neuen tee zu finden
       difficulty: 3
       status: 0
+      imageName: 
     - task: "eine aktivit\xE4t zu diesem spiel hinzuf\xFCgen"
       difficulty: 3
       status: 0
+      imageName: 
     - task: "2 dehn\xFCbungen insgesamt 15 minuten lang machen"
       difficulty: 3
       status: 0
+      imageName: 
   taskAsset: {fileID: 9197481963319205126, guid: 0f380b17998e51849a2ea596def10b5b, type: 3}
   jsonFilePath: /Resources/
   fileName: Cards
